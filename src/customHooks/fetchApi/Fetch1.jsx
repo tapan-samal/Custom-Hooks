@@ -16,6 +16,7 @@ const Fetch1 = () => {
 
   return (
     <>
+    <h1>2. useFetch</h1>
       <h2>Fetch Data 1:</h2>
       {data.map((elem) => (
         <div key={elem.id}>
